@@ -10,3 +10,5 @@ dist/
 build/
 out/
 output/
+out_tmp/
+output/
