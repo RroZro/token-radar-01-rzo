@@ -6,6 +6,16 @@
 // with the vendored make.fun library.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.json
+//
+// Build metadata:
+//   Harness:    Hermes Agent v0.23.1
+//   Provider:   nvidia
+//   Model:      nemotron-3.5-super-vl-120b-a12b
+//   Effort:     default
+//   MCP:        none
+//   Source repo: token-radar-entry (this directory)
+//   Bounty:     token-radar-01 (make.fun)
+//   Deadline:   2026-11-24T17:00:00Z
 
 import fs, { writeFileSync } from "node:fs";
 import path from "node:path";

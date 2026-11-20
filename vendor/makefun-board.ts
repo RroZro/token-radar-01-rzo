@@ -8,6 +8,16 @@
 //
 // The bounty's scorer runs this same file, byte for byte, on what you hand in, and requires your
 // dossier.json to equal what buildDossier writes from your dashboard/ and screenshots/.
+//
+// Build metadata:
+//   Harness:    Hermes Agent v0.23.1
+//   Provider:   nvidia
+//   Model:      nemotron-3.5-super-vl-120b-a12b
+//   Effort:     default
+//   MCP:        none
+//   Source repo: token-radar-entry (this directory)
+//   Bounty:     token-radar-01 (make.fun)
+//   Deadline:   2026-11-24T17:00:00Z
 
 import { createHash } from "node:crypto";
 import * as fs from "node:fs";
